@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{NAME}}'s Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 40px;
+            color: #333;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 2px solid #ddd;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{NAME}}'s Website</h1>
+    <p><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
+    <p>Discord: {{DISCORD_ID}}</p>
+
+    <a href="{{PROFILE_PIC}}">
+        <img src="{{PROFILE_PIC}}" alt="{{NAME}}">
+    </a>
+
+    <h2>About Me</h2>
+    <p>Hi, I'm {{NAME}}, a {{OCCUPATION}} passionate about {{INTERESTS}}.</p>
+
+    <h2>What I’m Learning</h2>
+    <ul>
+        <li>{{LEARNING_1}}</li>
+        <li>{{LEARNING_2}}</li>
+        <li>{{LEARNING_3}}</li>
+    </ul>
+
+    <h2>Hobbies</h2>
+    <ul>
+        <li>{{HOBBY_1}}</li>
+        <li>{{HOBBY_2}}</li>
+    </ul>
+
+    <h2>Fun Fact</h2>
+    <p>{{FUN_FACT}}</p>
+</body>
+</html>
